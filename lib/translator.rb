@@ -1,4 +1,4 @@
-# require modules here
+require "ya"
 
 def load_library
   # code goes here
