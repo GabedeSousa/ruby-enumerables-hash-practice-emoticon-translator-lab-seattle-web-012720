@@ -24,7 +24,7 @@ def get_japanese_emoticon(emoticon_file, emoticon)
 def get_english_meaning(file_path, emoticon)
   hash = load_library(file_path)
   hash['get_meaning'].each do |jap_emot,meaning|
-    if 
+    if jap_emot
     
   
 end
