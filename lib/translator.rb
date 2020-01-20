@@ -22,8 +22,5 @@ def get_japanese_emoticon(emoticon_file, emoticon)
   
 
 def get_english_meaning
-  test_j = get_japanese_emoticon(emoticon_file, emoticon)
-test_e = get_english_meaning(emoticon_file, emoticon)
-p test_j
-p test_e 
+  
 end
