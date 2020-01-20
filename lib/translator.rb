@@ -26,7 +26,9 @@ def get_english_meaning(file_path, emoticon)
   hash['get_meaning'].each do |jap_emot,meaning|
     if jap_emot == emoticon
       return meaning
-      
+      break
+    end
+    
     
   
 end
