@@ -26,5 +26,4 @@ def get_english_meaning
 test_e = get_english_meaning(emoticon_file, emoticon)
 p test_j
 p test_e 
-
 end
