@@ -19,6 +19,7 @@ def get_japanese_emoticon(emoticon_file, emoticon)
   engllish_meaning = emoticons_lib['get_meaning'][emoticon]
   engllish_meaning ? engllish_meaning : 'Sorry, that emoticon was not found'
   
+  
 end
 
 def get_english_meaning
