@@ -28,7 +28,8 @@ def get_english_meaning(file_path, emoticon)
       return meaning
       break
     end
-    
+  end
+  
     
   
 end
